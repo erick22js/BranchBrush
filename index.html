@@ -1,0 +1,45 @@
+<html>
+	<head>
+		
+	</head>
+	<body style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;">
+		
+		<canvas id="tela" width="512" height="512" style="border:1px solid black;"></canvas>
+		
+		<button id="btnexec">Iniciar</button><button id="btnreset">Resetar</button>
+		
+		<br/><br/>
+		
+		<select id="inslobj" value="1">
+			<option value="BBTYPE_MOVER">Movedor</option>
+			<option value="BBTYPE_RESTORE">Reinicializador</option>
+			<option value="BBTYPE_BARRIER">Barreira</option>
+			<option value="BBTYPE_CROTATE">Rotator horário</option>
+			<option value="BBTYPE_AROTATE">Rotator anti-horário</option>
+			<option value="BBTYPE_INVERTER">Invertedor</option>
+			<option value="BBTYPE_FLIPPER">Redirecionador</option>
+			<option value="BBTYPE_SONAR">Sonar</option>
+			<option value="-delete-">-Apagar-</option>
+		</select><br/>
+		
+		<select id="insldir">
+			<option value="[1, 0]">Direita</option>
+			<option value="[0, 1]">Abaixo</option>
+			<option value="[-1, 0]">Esquerda</option>
+			<option value="[0, -1]">Acima</option>
+		</select><br/>
+		
+		<input type="checkbox" id="chkmoving"><label>Movendo</label><br/>
+		<input type="checkbox" id="chkghost"><label>Fantasma</label><br/>
+		<input type="checkbox" id="chktriggeable"><label>Acionável</label><br/>
+		<input type="checkbox" id="chkbouncer"><label>Elástico</label><br/>
+		
+		<br/><br/><br/><br/>
+		
+		<h3 id="stdbg">Debug</h3>
+		
+		<script src="branchbrush.js"></script>
+		<script src="main.js"></script>
+		
+	</body>
+</html>
