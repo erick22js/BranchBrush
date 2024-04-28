@@ -1,6 +1,6 @@
 # BranchBrush
 Automatized machanics and properties to play and make some experiments
-Live demo in: https://erickhost22.000webhostapp.com/pessoal/branchbrush/
+Live demo in: http://erick22.rf.gd/branch-brush/
 enjoy it :-)
 
 # Changelog
